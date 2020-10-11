@@ -1,6 +1,6 @@
 let value = prompt("Введите число");
 let value1 = +value;
-if (typeof value1 === 'NaN'){
+if (Number.isNaN(value1)){
 	alert("Упс, кажется, вы ошиблись");
 }
 else if (value1 % 2 == 0 && value1 !== 0){
